@@ -26,11 +26,11 @@ public class Main {
 		
 		//결과 출력
 		for(int i=1; i<count.length; i++) {
-            if(count[i] > 0) { //배열 값이 0보다 크면 출력
-                for(int j=0; j<count[i]; j++) {
+            		if(count[i] > 0) { //배열 값이 0보다 크면 출력
+                		for(int j=0; j<count[i]; j++) {
 				    bw.write(i + "\n");
-			    }   
-            }
+				}   
+            		}
 		}
 		
 		bw.close();

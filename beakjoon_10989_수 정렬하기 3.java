@@ -16,7 +16,7 @@ public class Main {
 		
 		//계수 정렬을 위한 배열 선언
 		//입력되는 숫자 크기: 1 ~ 10,000
-        //배열 크기: 10001
+        	//배열 크기: 10001
 		int [] count = new int[10001];
 		
 		//계수 정렬(카운팅 정렬) 사용
@@ -26,11 +26,11 @@ public class Main {
 		
 		//결과 출력
 		for(int i=1; i<count.length; i++) {
-            if(count[i] > 0) { //배열 값이 0보다 크면 출력
-                for(int j=0; j<count[i]; j++) {
+            		if(count[i] > 0) { //배열 값이 0보다 크면 출력
+                		for(int j=0; j<count[i]; j++) {
 				    bw.write(i + "\n");
-			    }   
-            }
+				}   
+            		}
 		}
 		
 		bw.close();
